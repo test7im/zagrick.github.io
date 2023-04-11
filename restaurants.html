@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Рестораны</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__container _container">
+    <div class="header__b-l">
+      <a href="/" class="header__logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <div class="header__line"></div>
+      <div class="header__name">
+        <p class="header__title">Современная татарская кухня</p>
+        <p class="header__city">г. Казань</p>
+      </div>
+    </div>
+    <div class="header__b-r">
+      <div class="header__label">
+        <img src="img/halyal.png" alt="halyal" />
+      </div>
+      <div class="header__buttons">
+        <a href="#" class="header__sign btn">Войти</a>
+        <a href="#" class="header__cart btn-green"><span>Корзина</span><span>0 ₽</span></a>
+        <div class="btn-mobile">
+  <button type="button" class="btn-mobile__burger">
+    <span></span>
+  </button>
+</div>
+<div class="mobile _mask">
+  <div class="mobile__block">
+    <div class="mobile__header">
+      <a href="/" class="mobile__logo">
+        <img src="img/logo-mobile.png" alt="logo" />
+      </a>
+      <div class="mobile__close">
+        <div class="mobile__btn-close">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="mobile__search">
+      <input type="search" name="search" id="search" placeholder="Поиск" />
+      <img src="img/search.png" alt="search" />
+    </div>
+    <div class="mobile__sign">
+      <a href="#">Вход в личный кабинет</a>
+    </div>
+    <div class="mobile__menu">
+      <ul>
+        <li>
+          <a type="button" class="_showMenu">Доставка <span class="arrow"></span></a>
+          <div class="_hidden">
+            <a href="#" class="mobile__menu-item">1</a>
+            <a href="#" class="mobile__menu-item">2</a>
+            <a href="#" class="mobile__menu-item">3</a>
+          </div>
+        </li>
+        <li><a href="/restaurants.html" class="mobile__menu-item">Рестораны</a></li>
+        <li><a href="/reviews.html" class="mobile__menu-item">Отзывы</a></li>
+        <li><a href="#" class="mobile__menu-item">О нас</a></li>
+        <li>
+          <a type="button" class="_showMenu">Сотрудничество <span class="arrow"></span></a>
+          <div class="_hidden">
+            <a href="#" class="mobile__menu-item">Тур.группам</a>
+            <a href="#" class="mobile__menu-item">Инвестиции</a>
+            <a href="#" class="mobile__menu-item">Оптовикам</a>
+            <a href="#" class="mobile__menu-item">Поставщикам</a>
+          </div>
+        </li>
+        <li><a href="#" class="mobile__menu-item">Контакты</a></li>
+        <li><a href="#" class="mobile__menu-item">Вакансии</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <nav class="header__nav">
+    <div class="_container">
+      <ul class="header__menu">
+        <li>
+          <a type="button" class="_showMenu">Доставка <span class="arrow"></span></a>
+          <div class="_hidden">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+          </div>
+        </li>
+        <li><a href="/restaurants.html">Рестораны</a></li>
+        <li><a href="/reviews.html">Отзывы</a></li>
+        <li><a href="#">О нас</a></li>
+        <li>
+          <a type="button" class="_showMenu">Сотрудничество <span class="arrow"></span></a>
+          <div class="_hidden"><a href="#">Тур.группам</a><a href="#">Инвестиции</a><a href="#">Оптовикам</a><a href="#">Поставщикам</a></div>
+        </li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Вакансии</a></li>
+      </ul>
+      <form class="header__search">
+        <input type="search" name="search" id="search" placeholder="Поиск" />
+        <img src="img/search.png" alt="search" />
+      </form>
+    </div>
+  </nav>
+</header>
+
+      <main class="page">
+        <div class="restaurants">
+          <div class="banner">
+            <div class="banner__body _container">
+              <h2 class="banner__title">О концепции</h2>
+              <div class="banner__text">
+                <p>Приятно, граждане, наблюдать, как сторонники тоталитаризма в науке являются только методом политического участия и своевременно верифицированы. С другой стороны, разбавленное изрядной долей эмпатии, рациональное мышление прекрасно подходит для реализации вывода текущих активов.</p>
+              </div>
+            </div>
+            <div class="banner__img">
+              <img src="img/restaurants/banner.png" alt="banner" />
+            </div>
+          </div>
+          <div class="_container">
+            <div class="slider">
+              <div class="slider-btn-l">
+                <img src="img/arrow-l.png" alt="arrow-l" />
+              </div>
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/1.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/2.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/3.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/4.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/5.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/1.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/2.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/3.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/4.png" alt="slider" /></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/slider/5.png" alt="slider" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-btn-r">
+                <img src="img/arrow-r.png" alt="arrow-r" />
+              </div>
+            </div>
+          </div>
+          <div class="_container">
+            <div class="menu">
+              <div class="menu__head">
+                <h2 class="menu__title">Меню ресторана</h2>
+                <span class="menu__line"></span>
+                <button class="menu__btn btn-green">Все меню</button>
+              </div>
+              <div class="slider2">
+                <div class="slider-btn-l">
+                  <img src="img/arrow-l.png" alt="arrow-l" />
+                </div>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="block-menu">
+                        <a href="#" class="block-menu__img"><img src="img/restaurants/menu/1.png" alt="menu" /></a>
+                        <div class="block-menu__body">
+                          <h4 class="block-menu__title">С куриной котлетой, овощамии тем самым соусом</h4>
+                          <p class="block-menu__text">Кыстыбургер с сочной куриной котлетой, хрустящим айсбергом, пряной руколой и томатами под пикантным соусом бургер.</p>
+                          <div class="block-menu__bottom">
+                            <div class="block-menu__price">282 ₽</div>
+                            <a href="#" class="block-menu__more btn-green">Подробнее</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="block-menu">
+                        <a href="#" class="block-menu__img"><img src="img/restaurants/menu/2.png" alt="menu" /></a>
+                        <div class="block-menu__body">
+                          <h4 class="block-menu__title">Традиционный с картофельным пюре</h4>
+                          <p class="block-menu__text">Лепешка пшеничная, картофельное пюре на молоке и сливочном масле, лук репчатый жареный</p>
+                          <div class="block-menu__bottom">
+                            <div class="block-menu__price">99 ₽</div>
+                            <a href="#" class="block-menu__more btn-green">Подробнее</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="block-menu">
+                        <a href="#" class="block-menu__img"><img src="img/restaurants/menu/2.png" alt="menu" /></a>
+                        <div class="block-menu__body">
+                          <h4 class="block-menu__title">Традиционный с картофельным пюре</h4>
+                          <p class="block-menu__text">Лепешка пшеничная, картофельное пюре на молоке и сливочном масле, лук репчатый жареный</p>
+                          <div class="block-menu__bottom">
+                            <div class="block-menu__price">99 ₽</div>
+                            <a href="#" class="block-menu__more btn-green">Подробнее</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="block-menu">
+                        <a href="#" class="block-menu__img"><img src="img/restaurants/menu/1.png" alt="menu" /></a>
+                        <div class="block-menu__body">
+                          <h4 class="block-menu__title">С куриной котлетой, овощамии тем самым соусом</h4>
+                          <p class="block-menu__text">Кыстыбургер с сочной куриной котлетой, хрустящим айсбергом, пряной руколой и томатами под пикантным соусом бургер.</p>
+                          <div class="block-menu__bottom">
+                            <div class="block-menu__price">282 ₽</div>
+                            <a href="#" class="block-menu__more btn-green">Подробнее</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="block-menu">
+                        <a href="#" class="block-menu__img"><img src="img/restaurants/menu/2.png" alt="menu" /></a>
+                        <div class="block-menu__body">
+                          <h4 class="block-menu__title">Традиционный с картофельным пюре</h4>
+                          <p class="block-menu__text">Лепешка пшеничная, картофельное пюре на молоке и сливочном масле, лук репчатый жареный</p>
+                          <div class="block-menu__bottom">
+                            <div class="block-menu__price">99 ₽</div>
+                            <a href="#" class="block-menu__more btn-green">Подробнее</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="block-menu">
+                        <a href="#" class="block-menu__img"><img src="img/restaurants/menu/2.png" alt="menu" /></a>
+                        <div class="block-menu__body">
+                          <h4 class="block-menu__title">Традиционный с картофельным пюре</h4>
+                          <p class="block-menu__text">Лепешка пшеничная, картофельное пюре на молоке и сливочном масле, лук репчатый жареный</p>
+                          <div class="block-menu__bottom">
+                            <div class="block-menu__price">99 ₽</div>
+                            <a href="#" class="block-menu__more btn-green">Подробнее</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-btn-r">
+                  <img src="img/arrow-r.png" alt="arrow-r" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kids-zone">
+            <div class="kids-zone__container _container">
+              <h2 class="kids-zone__title">Детская зона</h2>
+              <div class="kids-zone__text">
+                <p>В наших ресторанах есть детские игровые площадки для детей от 2 до 8 лет.</p>
+                <p>Чтобы ваш ребенок мог не только вкусно поесть, но и вдоволь наиграться.</p>
+              </div>
+              <div class="slider3">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#"><img src="img/restaurants/kids-zone/1.png" alt="kids-zone" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"><img src="img/restaurants/kids-zone/2.png" alt="kids-zone" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"><img src="img/restaurants/kids-zone/1.png" alt="kids-zone" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"><img src="img/restaurants/kids-zone/2.png" alt="kids-zone" /></a>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-bottom">
+            <div class="block-bottom__container _container">
+              <div class="blocks">
+                <div class="blocks__body">
+                  <div class="reviews">
+                    <div class="reviews__head">
+                      <h2 class="reviews__title">Отзывы</h2>
+                      <div class="reviews__services">
+                        <div class="reviews__service">
+                          <div class="reviews__icon">
+                            <img src="img/restaurants/reviews/yandex.png" alt="icon" />
+                          </div>
+                          <div class="reviews__score">
+                            <img src="img/svg/star.svg" alt="star" />
+                            <span>5,0</span>
+                          </div>
+                        </div>
+                        <div class="reviews__service">
+                          <div class="reviews__icon">
+                            <img src="img/restaurants/reviews/2gis.png" alt="icon" />
+                          </div>
+                          <div class="reviews__score">
+                            <img src="img/svg/star.svg" alt="star" />
+                            <span>4,9</span>
+                          </div>
+                        </div>
+                        <div class="reviews__service">
+                          <div class="reviews__icon">
+                            <img src="img/restaurants/reviews/google.png" alt="icon" />
+                          </div>
+                          <div class="reviews__score">
+                            <img src="img/svg/star.svg" alt="star" />
+                            <span>4,6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider4">
+                      <div class="slider-btn-l">
+                        <img src="img/arrow-l.png" alt="arrow-l" />
+                      </div>
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide block">
+                            <div class="block__head">
+                              <div class="block__title">
+                                <span class="block__service">
+                                  <img src="img/restaurants/reviews/yandex.png" alt="service" />
+                                </span>
+                                <span class="block__name">Андрей С.</span>
+                              </div>
+                              <div class="block__stars">
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                              </div>
+                            </div>
+                            <hr class="block__line" />
+                            <div class="block__body">
+                              <p>Место отличное, очень уютно, идеально чисто, а главное, невероятно вкусно! Отдельное спасибо за веганский кыстыбургер и чечевичный суп, крайне редко можно такое встретить в фаст фуде. Концепция с национальной кухней в современном формате просто супер, для жителей из других регионов это что-то новое, мы редко такое пробуем у себя. Если бы вы открылись в Москве, с радостью бы к вам ходил, у вас есть то, чего нет в других заведениях, и это все гораздо ближе жителям России, чем зарубежное. Буду обязательно к вам ходить, снова приехав в Казань.</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide block">
+                            <div class="block__head">
+                              <div class="block__title">
+                                <span class="block__service">
+                                  <img src="img/restaurants/reviews/yandex.png" alt="service" />
+                                </span>
+                                <span class="block__name">Андрей С.</span>
+                              </div>
+                              <div class="block__stars">
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                              </div>
+                            </div>
+                            <hr class="block__line" />
+                            <div class="block__body">
+                              <p>Место отличное, очень уютно, идеально чисто, а главное, невероятно вкусно! Отдельное спасибо за веганский кыстыбургер и чечевичный суп, крайне редко можно такое встретить в фаст фуде. Концепция с национальной кухней в современном формате просто супер, для жителей из других регионов это что-то новое, мы редко такое пробуем у себя. Если бы вы открылись в Москве, с радостью бы к вам ходил, у вас есть то, чего нет в других заведениях, и это все гораздо ближе жителям России, чем зарубежное. Буду обязательно к вам ходить, снова приехав в Казань.</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide block">
+                            <div class="block__head">
+                              <div class="block__title">
+                                <span class="block__service">
+                                  <img src="img/restaurants/reviews/yandex.png" alt="service" />
+                                </span>
+                                <span class="block__name">Андрей С.</span>
+                              </div>
+                              <div class="block__stars">
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                                <img src="img/svg/star.svg" alt="star" />
+                              </div>
+                            </div>
+                            <hr class="block__line" />
+                            <div class="block__body">
+                              <p>Место отличное, очень уютно, идеально чисто, а главное, невероятно вкусно! Отдельное спасибо за веганский кыстыбургер и чечевичный суп, крайне редко можно такое встретить в фаст фуде. Концепция с национальной кухней в современном формате просто супер, для жителей из других регионов это что-то новое, мы редко такое пробуем у себя. Если бы вы открылись в Москве, с радостью бы к вам ходил, у вас есть то, чего нет в других заведениях, и это все гораздо ближе жителям России, чем зарубежное. Буду обязательно к вам ходить, снова приехав в Казань.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider-btn-r">
+                        <img src="img/arrow-r.png" alt="arrow-r" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="addresses">
+                    <h2 class="addresses__title">Адреса ресторанов</h2>
+                    <div class="addresses__cols">
+                      <div class="addresses__col">
+                        <div class="addresses__location">
+                          <span class="gray">АДРЕС</span>
+                          <p>ул. Кремлёвская, 21</p>
+                        </div>
+                        <div class="addresses__works">
+                          <span class="gray">ВРЕМЯ РАБОТЫ</span>
+                          <ul>
+                            <li><span>Пн-Чт</span><span>8:00 - 21:00</span></li>
+                            <li><span>Пт</span><span>8:00 - 22:00</span></li>
+                            <li><span>Сб</span><span>9:00 - 22:00</span></li>
+                            <li><span>Вс</span><span>9:00 - 21:00</span></li>
+                          </ul>
+                        </div>
+                        <div class="addresses__tel">
+                          <a href="tel:+79274519217">+7 (927) 451-92-17</a>
+                          <span class="gray">ТЕЛЕФОН</span>
+                        </div>
+                      </div>
+                      <div class="addresses__col">
+                        <div class="addresses__location">
+                          <span class="gray">АДРЕС</span>
+                          <p>ул. Университетская, 22</p>
+                        </div>
+                        <div class="addresses__works">
+                          <span class="gray">ВРЕМЯ РАБОТЫ</span>
+                          <ul>
+                            <li><span>Пн-Пт</span><span>8:00 - 20:00</span></li>
+                            <li><span>Сб</span><span>9:00 - 20:00</span></li>
+                            <li><span>Вс</span><span>10:00 - 20:00</span></li>
+                          </ul>
+                        </div>
+                        <div class="addresses__tel">
+                          <a href="tel:+79274082271">+7 (927) 408-22-71</a>
+                          <span class="gray">ТЕЛЕФОН</span>
+                        </div>
+                      </div>
+                      <div class="addresses__col">
+                        <div class="addresses__location">
+                          <span class="gray">АДРЕС</span>
+                          <p>ул. Баумана, 47/9</p>
+                        </div>
+                        <div class="addresses__works">
+                          <span class="gray">ВРЕМЯ РАБОТЫ</span>
+                          <ul>
+                            <li><span>Пн-Чт</span><span>8:00 - 22:00</span></li>
+                            <li><span>Пт</span><span>8:00 - 23:00</span></li>
+                            <li><span>Сб</span><span>9:00 - 23:00</span></li>
+                            <li><span>Вс</span><span>9:30 - 22:00</span></li>
+                          </ul>
+                        </div>
+                        <div class="addresses__tel">
+                          <a href="tel:+79274519207">+7 (927) 451-92-07</a>
+                          <span class="gray">ТЕЛЕФОН</span>
+                        </div>
+                      </div>
+                      <div class="addresses__col">
+                        <div class="addresses__location">
+                          <span class="gray">АДРЕС</span>
+                          <p>пр. Ямашева, 46/33<br />(Park House 2 этаж)</p>
+                        </div>
+                        <div class="addresses__works">
+                          <span class="gray">ВРЕМЯ РАБОТЫ</span>
+                          <ul>
+                            <li><span>Пн-Вс</span><span>10:00 - 22:00</span></li>
+                          </ul>
+                        </div>
+                        <div class="addresses__tel">
+                          <a href="tel:+79274222991">+7 (927) 422-29-91</a>
+                          <span class="gray">ТЕЛЕФОН</span>
+                        </div>
+                      </div>
+                      <div class="addresses__col">
+                        <div class="addresses__location">
+                          <span class="gray">АДРЕС</span>
+                          <p>ул. Татарстан, 3</p>
+                        </div>
+                        <div class="addresses__works">
+                          <span class="gray">ВРЕМЯ РАБОТЫ</span>
+                          <ul>
+                            <li><span>Пн-Пт</span><span>8:00 - 22:00</span></li>
+                            <li><span>Сб</span><span>9:00 - 22:00</span></li>
+                            <li><span>Вс</span><span>9:30 - 22:00</span></li>
+                          </ul>
+                        </div>
+                        <div class="addresses__tel">
+                          <a href="tel:+79377717752">+7 (937) 771-77-52</a>
+                          <span class="gray">ТЕЛЕФОН</span>
+                        </div>
+                      </div>
+                      <div class="addresses__col">
+                        <div class="addresses__location">
+                          <span class="gray">АДРЕС</span>
+                          <p>ул. Спартаковская, 2</p>
+                        </div>
+                        <div class="addresses__works">
+                          <span class="gray">ВРЕМЯ РАБОТЫ</span>
+                          <ul>
+                            <li><span>Пн-Вс</span><span>8:00 - 22:00</span></li>
+                          </ul>
+                        </div>
+                        <div class="addresses__tel">
+                          <a href="tel:+79270421611">+7 (927) 042-16-11</a>
+                          <span class="gray">ТЕЛЕФОН</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blocks__img">
+                  <img src="img/restaurants/ornament.png" alt="ornament" />
+                </div>
+              </div>
+              <div class="maps">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6f7cd61df36d20734cd071d24d16e901566f2d16bcd5bcc399e71c423febee01&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+              </div>
+              <div class="order">
+                <div class="order__l">
+                  <h2 class="order__title">
+                    закажи ДОСТАВКу<br />
+                    ИЗ РЕСТОРАНА!
+                  </h2>
+                  <div class="order__text">
+                    <p>
+                      Доставим кыстыбургеры<br />
+                      и эчпочмаки в любую точку Казани!
+                    </p>
+                  </div>
+                  <button class="order__btn btn-green">Перейти к меню</button>
+                </div>
+                <div class="order__r">
+                  <div class="order__img">
+                    <img src="img/restaurants/packaging.png" alt="packaging" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+  <div class="footer__container _container">
+    <div class="footer__cols">
+      <div class="footer__col">
+        <p class="footer__text">
+          Читай<br />
+          отзывы о нас
+        </p>
+        <div class="footer__icons">
+          <a href="#" class="footer__icon">
+            <img src="img/icons/location.png" alt="location" />
+          </a>
+          <a href="#" class="footer__icon">
+            <img src="img/icons/2gis.png" alt="2gis" />
+          </a>
+          <a href="#" class="footer__icon">
+            <img src="img/icons/google-maps.png" alt="google-maps" />
+          </a>
+          <a href="#" class="footer__icon">
+            <img src="img/icons/tripadvisor.png" alt="tripadvisor" />
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <p class="footer__text">
+          Подпишись, обещаем интересный<br />
+          контент и выгодные акции
+        </p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social">
+            <img src="img/icons/vk.png" alt="vk" />
+          </a>
+          <a href="#" class="footer__social">
+            <img src="img/icons/mail.png" alt="mail" />
+          </a>
+          <a href="#" class="footer__social">
+            <img src="img/icons/tik-tok.png" alt="tik-tok" />
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <a href="tel:+78432494141" class="footer__tel">+7 (843)249-41-41</a>
+        <div class="footer__apps">
+          <a href="#" class="footer__app">
+            <img src="img/google-play.png" alt="google-play" />
+          </a>
+          <a href="#" class="footer__app">
+            <img src="img/app-store.png" alt="app-store" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

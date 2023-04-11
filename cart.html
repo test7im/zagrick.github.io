@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Корзина и оформление</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__container _container">
+    <div class="header__b-l">
+      <a href="/" class="header__logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <div class="header__line"></div>
+      <div class="header__name">
+        <p class="header__title">Современная татарская кухня</p>
+        <p class="header__city">г. Казань</p>
+      </div>
+    </div>
+    <div class="header__b-r">
+      <div class="header__label">
+        <img src="img/halyal.png" alt="halyal" />
+      </div>
+      <div class="header__buttons">
+        <a href="#" class="header__sign btn">Войти</a>
+        <a href="#" class="header__cart btn-green"><span>Корзина</span><span>0 ₽</span></a>
+        <div class="btn-mobile">
+  <button type="button" class="btn-mobile__burger">
+    <span></span>
+  </button>
+</div>
+<div class="mobile _mask">
+  <div class="mobile__block">
+    <div class="mobile__header">
+      <a href="/" class="mobile__logo">
+        <img src="img/logo-mobile.png" alt="logo" />
+      </a>
+      <div class="mobile__close">
+        <div class="mobile__btn-close">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="mobile__search">
+      <input type="search" name="search" id="search" placeholder="Поиск" />
+      <img src="img/search.png" alt="search" />
+    </div>
+    <div class="mobile__sign">
+      <a href="#">Вход в личный кабинет</a>
+    </div>
+    <div class="mobile__menu">
+      <ul>
+        <li>
+          <a type="button" class="_showMenu">Доставка <span class="arrow"></span></a>
+          <div class="_hidden">
+            <a href="#" class="mobile__menu-item">1</a>
+            <a href="#" class="mobile__menu-item">2</a>
+            <a href="#" class="mobile__menu-item">3</a>
+          </div>
+        </li>
+        <li><a href="/restaurants.html" class="mobile__menu-item">Рестораны</a></li>
+        <li><a href="/reviews.html" class="mobile__menu-item">Отзывы</a></li>
+        <li><a href="#" class="mobile__menu-item">О нас</a></li>
+        <li>
+          <a type="button" class="_showMenu">Сотрудничество <span class="arrow"></span></a>
+          <div class="_hidden">
+            <a href="#" class="mobile__menu-item">Тур.группам</a>
+            <a href="#" class="mobile__menu-item">Инвестиции</a>
+            <a href="#" class="mobile__menu-item">Оптовикам</a>
+            <a href="#" class="mobile__menu-item">Поставщикам</a>
+          </div>
+        </li>
+        <li><a href="#" class="mobile__menu-item">Контакты</a></li>
+        <li><a href="#" class="mobile__menu-item">Вакансии</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <nav class="header__nav">
+    <div class="_container">
+      <ul class="header__menu">
+        <li>
+          <a type="button" class="_showMenu">Доставка <span class="arrow"></span></a>
+          <div class="_hidden">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+          </div>
+        </li>
+        <li><a href="/restaurants.html">Рестораны</a></li>
+        <li><a href="/reviews.html">Отзывы</a></li>
+        <li><a href="#">О нас</a></li>
+        <li>
+          <a type="button" class="_showMenu">Сотрудничество <span class="arrow"></span></a>
+          <div class="_hidden"><a href="#">Тур.группам</a><a href="#">Инвестиции</a><a href="#">Оптовикам</a><a href="#">Поставщикам</a></div>
+        </li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Вакансии</a></li>
+      </ul>
+      <form class="header__search">
+        <input type="search" name="search" id="search" placeholder="Поиск" />
+        <img src="img/search.png" alt="search" />
+      </form>
+    </div>
+  </nav>
+</header>
+
+      <main class="page">
+        <div class="cart">
+          <div class="cart__body">
+            <div class="cart__add-to-cart">
+              <div class="_container">
+                <h3 class="cart__title">Корзина <span>2 товара на 564 ₽</span></h3>
+                <div class="products">
+                  <div class="products__product">
+                    <div class="products__img">
+                      <img src="img/restaurants/menu/1.png" alt="restaurants" />
+                    </div>
+                    <div class="products__body">
+                      <a type="button" class="products__close"><img src="img/svg/close.svg" alt="close" /></a>
+                      <div class="products__text">
+                        <h3 class="products__title">С куриной котлетой, овощамии тем самым соусом</h3>
+                        <div class="products__weight">180 г</div>
+                      </div>
+                      <div class="products__bottom">
+                        <div class="products__price">282 ₽</div>
+                        <div class="products__count"><span class="operand">-</span><span class="quantity">1</span><span class="operand">+</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__product">
+                    <div class="products__img">
+                      <img src="img/restaurants/menu/1.png" alt="restaurants" />
+                    </div>
+                    <div class="products__body">
+                      <a type="button" class="products__close"><img src="img/svg/close.svg" alt="close" /></a>
+                      <div class="products__text">
+                        <h3 class="products__title">С куриной котлетой, овощамии тем самым соусом</h3>
+                        <div class="products__weight">180 г</div>
+                      </div>
+                      <div class="products__bottom">
+                        <div class="products__price">282 ₽</div>
+                        <div class="products__count"><span class="operand">-</span><span class="quantity">1</span><span class="operand">+</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart__add-order bg-gray">
+                <div class="_container">
+                  <h3 class="cart__title">Добавить к заказу?</h3>
+                  <div class="blocks">
+                    <div class="blocks__block add">
+                      <div class="add__img">
+                        <img src="img/restaurants/adds/1.png" alt="adds" />
+                      </div>
+                      <div class="add__title">
+                        <h4>Соусы</h4>
+                        <span>
+                          <img src="img/svg/arrow-d.svg" alt="arrow" />
+                        </span>
+                      </div>
+                    </div>
+                    <div class="blocks__block">
+                      <div class="blocks__img">
+                        <img src="img/restaurants/menu/1.png" alt="restaurants" />
+                      </div>
+                      <div class="blocks__body">
+                        <div class="blocks__text">
+                          <h4 class="blocks__title">С куриной котлетой, овощами и тем самым соусом</h4>
+                          <div class="blocks__weight">180 г</div>
+                        </div>
+                        <button class="btn-green">282 ₽</button>
+                      </div>
+                    </div>
+                    <div class="blocks__block">
+                      <div class="blocks__img">
+                        <img src="img/restaurants/menu/1.png" alt="restaurants" />
+                      </div>
+                      <div class="blocks__body">
+                        <div class="blocks__text">
+                          <h4 class="blocks__title">С куриной котлетой, овощами и тем самым соусом</h4>
+                          <div class="blocks__weight">180 г</div>
+                        </div>
+                        <button class="btn-green">282 ₽</button>
+                      </div>
+                    </div>
+                    <div class="blocks__block">
+                      <div class="blocks__img">
+                        <img src="img/restaurants/menu/1.png" alt="restaurants" />
+                      </div>
+                      <div class="blocks__body">
+                        <div class="blocks__text">
+                          <h4 class="blocks__title">С куриной котлетой, овощами и тем самым соусом</h4>
+                          <div class="blocks__weight">180 г</div>
+                        </div>
+                        <button class="btn-green">282 ₽</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="_container">
+                <div class="make-order">
+                  <div class="make-order__total"><span class="quantity">2 товара </span><span class="price">564 ₽</span></div>
+                  <button class="btn-take-bonus">Списать бонусы</button>
+                  <div class="make-order__input-promocode">
+                    <input type="text" name="promocode" placeholder="Ввести промокод" />
+                  </div>
+                  <button class="btn-make-order btn-green">
+                    <span>Оформить заказ на 564 ₽</span>
+                    <img src="img/svg/arrow-r.svg" alt="arrow" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="cart__to-do-order">
+              <div class="_container">
+                <div class="cart__order-block">
+                  <h3 class="cart__title"><img src="img/svg/arrow-green.svg" alt="arrow" /> Оформление заказа</h3>
+                  <div class="cart__info-order">
+                    <div class="cart__address">
+                      <span>В зале</span>
+                      <span>ул. Татарстан, 3</span>
+                    </div>
+                    <a href="#" class="cart__time">
+                      <span><img src="img/svg/clock.svg" alt="clock" /> Побыстрее ~ 7 мин</span>
+                      <span><img src="img/svg/arrow.svg" alt="arrow" /></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="_container">
+                <div class="cart__payment">
+                  <h3>Способ оплаты</h3>
+                  <form id="form-pays">
+                    <a type="button" id="method-pays"><span class="selectPay"></span><img src="img/svg/arrow-gd.svg" alt="arrow" class="arrow-img" /></a>
+                    <input type="hidden" name="pays" />
+                    <ul id="payments">
+                      <li><img src="img/card.png" alt="card" /> 5536 91** ****77955536 91** ****7795</li>
+                      <li><img src="img/card.png" alt="card" /> card 2</li>
+                      <li><img src="img/card.png" alt="card" /> card 3</li>
+                    </ul>
+                  </form>
+                  <div id="form-pays-mobile">
+                    <div class="payment">
+                      <input id="payment1" type="radio" name="payment" />
+                      <label for="payment1">Новая карта</label>
+                    </div>
+                    <div class="payment">
+                      <input id="payment2" type="radio" name="payment" checked />
+                      <label for="payment2"><img src="img/card.png" alt="card" /> 5536 91** ****7795</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart__method-order bg-gray">
+                <div class="_container">
+                  <h3>Способ заказа</h3>
+                  <div class="cart__methods">
+                    <div class="cart__select-block">
+                      <img src="img/on_hall.png" alt="on_hall" />
+                      <input id="on-hall" type="radio" name="check" checked />
+                      <label for="on-hall">На подносе</label>
+                    </div>
+                    <div class="cart__select-block">
+                      <img src="img/without.png" alt="without" />
+                      <input id="without" type="radio" name="check" />
+                      <label for="without">С собой</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="_container">
+                <div class="make-order">
+                  <h3 class="make-order__title">Комментарий к заказу</h3>
+                  <textarea name="comment-order" class="make-order__comment"></textarea>
+                  <hr class="make-order__line" />
+                  <div class="make-order__total"><span class="quantity">2 товара </span><span class="price">564 ₽</span></div>
+                  <button class="btn-make-order btn-green">Купить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
